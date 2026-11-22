@@ -1,0 +1,101 @@
+.product-list-page{
+  position: fixed;
+    top: 0;
+    left: 0;
+     width: 100%; 
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* border: 1px solid blue; */
+    /* margin-left: 550px; */
+}
+
+
+ .form-controller {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+      margin-left: 550px;
+}
+
+.form-controller > button {
+    align-self: self-end;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    padding-inline: 10px;
+    cursor: pointer;
+}
+
+.form-controller > form {
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.217);
+    border-radius: 25px;
+    margin: 20px 20px 50px 20px;
+}
+.form-controller h3{
+ padding: 20px;
+ position: relative;
+ right: 100px;
+
+}
+.form-controller > form > div.input-controller {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-controller > form > div.input-controller > input {
+    width: 100%;
+    padding-block: 8px;
+    outline: none;
+    /* border: 1px solid black; */
+    background-color: rgb(227, 228, 229);
+    text-indent: 13px;
+    border-radius: 20px;
+    border: none;
+}
+
+.form-controller > form > .btn-controller {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.form-controller > form > .btn-controller > button {
+    padding-inline: 15px;
+    padding-block: 10px;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-controller > button.create {
+    width: 350px;
+    background: rgb(219, 35, 35);
+    color: white;
+    border: none;
+   
+}
+
+.form-controller > form > .btn-controller > button.cancel {
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+}
+.inputDescrib{
+height: 200px;
+
+}

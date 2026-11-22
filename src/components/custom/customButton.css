@@ -1,0 +1,32 @@
+.custom-button{
+    width: 500px;
+  display:flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 500px;
+ /* border: 1px solid red; */
+ margin-bottom: 100px;
+}
+.btn-header{
+    outline: none;
+  border: none;
+  padding-inline: 13px;
+  padding-right: 20px;
+  padding: 5px;
+
+  color: rgb(3, 3, 3);
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-block: 20px;
+
+}
+.btn-header-products{
+  padding: 5px;
+ margin-top: 25px;
+}
+.btn-header-Addproducts{
+  background-color: red;
+  
+}

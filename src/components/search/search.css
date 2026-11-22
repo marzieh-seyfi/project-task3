@@ -1,0 +1,18 @@
+.custom-input {
+    width: 450px;
+}
+
+.custom-input > input {
+    width: 100%;
+    direction: rtl;
+    padding: 10px;
+    padding-inline: 20px;
+    /* background: url(../../assests/images/.jpg) white; */
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 2% center;
+    /* border: 1px solid black; */
+    outline: none;
+    border-radius: 20px;
+    margin-left: 500px;
+}
